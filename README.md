@@ -105,5 +105,5 @@ php artisan serve
 Если у вас есть вопросы или предложения по проекту, вы можете связаться со мной следующими способами:
 
 - **Email**: [v_kudinov@kbtu.kz](mailto:v_kudinov@kbtu.kz)
-- **LinkedIn**: [Ваш профиль](https://www.linkedin.com/in/lazynx/)
+- **LinkedIn**: [Kudinov Vladislav](https://www.linkedin.com/in/lazynx/)
 - **Telegram**: [@lazynx](https://t.me/lazynx)
