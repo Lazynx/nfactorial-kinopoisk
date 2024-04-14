@@ -1,4 +1,4 @@
-# Ридми файл проекта "КиноПоиск на Laravel"
+# Nfactorial Incubator task
 
 ## Оглавление
 
