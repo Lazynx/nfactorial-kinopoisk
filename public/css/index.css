@@ -1,0 +1,90 @@
+
+.movie-card__btn-later {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  box-shadow: none;
+  transition-timing-function: ease-out;
+  transition-duration: .1s;
+  transition-property: background-image;
+}
+
+.movie-card__btn-later:hover {
+  background-color: transparent;
+}
+
+.movie-card__btn-icon {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  background-size: 24px;
+  background-image: url('../images/btn-watch-later-index.svg');
+}
+
+.movie-card__btn-later:hover .movie-card__btn-icon  {
+  background-image: url('../images/btn-watch-later-index-hover.svg');
+}
+
+.movie-card__btn-later:hover .movie-card__btn-icon.added {
+  background-image: url('../images/btn-watch-later-added.svg');
+}
+
+.flash {
+  z-index: 4;
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+  visibility: visible;
+  font-size: 12px;
+  opacity: 1;
+  transition: opacity .2s, visibility .2s, transform .3s ease;
+  transform: translateY(-20%);
+  transition: opacity 0.5s ease, visibility 0.5s linear 0.5s;
+}
+
+.flash__inner {
+  position: relative;
+  display: flex;
+  width: 250px;
+  min-height: 48px;
+  margin: 5px 0;
+  padding: 10px 7px;
+  color: #fff;
+  border-radius: 7px;
+  background: rgba(255, 102, 0, .8);
+}
+
+.flash__picture {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+  border-radius: 3px;
+  background-color: #cb4400;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 30px;
+  background-image: url('../images/alert.svg');
+}
+
+.flash__content {
+  flex-grow: 1;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}

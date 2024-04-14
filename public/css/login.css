@@ -1,0 +1,110 @@
+.layout {
+  background-color: #131317;
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.layout__background {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/background-login.jpeg");
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.layout__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.passp-content {
+  background-color: #131317;;
+  z-index: 9999;
+  border-radius: 32px;
+  padding: 32px;
+  position: relative;
+}
+
+.passp-content__back {
+  position: absolute;
+  top: 32px;
+  left: 36px;
+  transition: .2s transform ease-in;
+}
+
+.passp-content__back:hover {
+  transform: translateX(-3px);
+}
+
+.passp-content__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: YS Text, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 24px;
+  color: rgba(247, 247, 255, .9);
+}
+
+.passp-content__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  background-color: #131317;
+  font-size: 24px;
+  height: 56px;
+  border-radius: 20px;
+  border: 1px solid rgba(211, 211, 222, .2);
+  color: rgba(247, 247, 255, .9);
+  padding: 2px 16px;
+  margin-bottom: 24px;
+}
+
+.form__button {
+  color: #1f1f24;
+  cursor: pointer;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  border: 0;
+  transition: transform .1s ease-out;
+}
+
+.form__button:hover {
+  transform: scale(1.04);
+}
+
+.passp-content__register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #56a8fc;
+  opacity: 1;
+  transition: .2s opacity ease;
+}
+
+.passp-content__register:hover {
+  opacity: 0.8;
+}

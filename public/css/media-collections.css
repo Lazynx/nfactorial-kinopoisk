@@ -1,0 +1,108 @@
+@media (max-width: 1020px) {
+  .collection-info__subtitle {
+    width: 460px;
+  }
+
+  .lists__films {
+    padding: 0;
+  }
+
+  .movie-detail__img {
+    min-height: 180px;
+  }
+
+  .movie-detail__info-inner {
+    flex-direction: column;
+  }
+
+  .movie-detail__block {
+    width: 180px;
+  }
+
+  .movie-detail__info-inner-2 {
+    margin-bottom: 15px;
+  }
+
+  .movie-detail__block-info {
+    max-width: 500px;
+  }
+
+  .collection-info__title {
+    width: 200px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 726px) {
+  .content {
+    margin: 0 20px;
+  }
+
+  .collection-info__subtitle {
+    width: 350px;
+  }
+
+  .collection-info {
+    justify-content: flex-start;
+  }
+
+  .movie-card__btn-later {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .lists__top {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding-top: 125px;
+  }
+
+  .lists__texts {
+    max-width: 200px;
+  }
+
+  .collection-info {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .collection-info__block-2 {
+    margin-bottom: 20px;
+  }
+
+  .movie-card__number-block {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+  }
+
+  .movie-card__title {
+    font-size: 15px;
+  }
+
+  .movie-card {
+    flex-direction: column;
+  }
+
+  .movie-card__text-block-1 {
+    margin-bottom: 10px;
+  }
+
+  .movie-card__right {
+    align-items: center;
+  }
+
+  .list__link {
+    font-size: 14px;
+  }
+
+
+  .movie-detail__block-info {
+    max-width: 320px;
+  }
+}
+
