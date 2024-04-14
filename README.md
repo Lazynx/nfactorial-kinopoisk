@@ -30,6 +30,10 @@
 git clone https://github.com/Lazynx/nfactorial-kinopoisk.git
 ```
 
+```sh
+cd nfactorial-kinopoisk/
+```
+
 2. Установить зависимости Composer:
 
 ```sh
