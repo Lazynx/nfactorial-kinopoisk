@@ -24,7 +24,7 @@
 
 1. Клонировать репозиторий:
 
-git clone https://
+git clone https://github.com/Lazynx/nfactorial-kinopoisk.git
 
 2. Установить зависимости Composer:
 
