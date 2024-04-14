@@ -25,7 +25,7 @@
 Для установки и запуска проекта необходимо выполнить следующие шаги:
 
 1. Клонировать репозиторий:
-git clone https://your-repository-link
+git clone https://github.com/Lazynx/nfactorial-kinopoisk.git
 
 2. Установить зависимости Composer:
 
