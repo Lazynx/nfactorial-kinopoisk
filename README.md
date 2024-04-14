@@ -50,7 +50,16 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-(Для настройки MariaDB) укажите ваши данные от БД в `.env`
+(Для настройки MariaDB) укажите ваши данные от БД в `.env`:
+
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ваше название БД
+DB_USERNAME=ваш username
+DB_PASSWORD=пароль от БД
+```
 
 4. Запустить миграции для создания структуры базы данных:
 
