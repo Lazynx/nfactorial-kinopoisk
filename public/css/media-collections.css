@@ -77,7 +77,7 @@
   .movie-card__number-block {
     position: absolute;
     top: 25px;
-    left: 10px;
+    left: 0;
   }
 
   .movie-card__title {
