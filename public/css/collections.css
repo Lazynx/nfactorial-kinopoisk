@@ -280,43 +280,6 @@
   line-height: 18px;
 }
 
-/* .pagination__link {
-  margin-left: 8px;
-  color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 36px;
-  min-width: 36px;
-  height: 36px;
-  min-height: 36px;
-  cursor: pointer;
-  text-decoration: none;
-  color: #000;
-  border-radius: 8px;
-  transition: background-color .1s ease;
-}
-
-.pagination__link:hover {
-  background: #f7f7f7;
-}
-
-.pagination__link.active {
-  color: #fff;
-  background: #1f1f1f;
-}
-
-.pagination__link.last, .pagination__link.first {
-  background-image: url("../images/pagination-prev.svg");
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 20px;
-}
-
-.pagination__link.last {
-  transform: rotate(180deg);
-}
- */
 .pagination {
   display: flex;
   list-style: none;
@@ -340,7 +303,7 @@
   color: #000;
   border-radius: 8px;
   transition: background-color .1s ease;
-  font-size: 14px; /* Adjust font size if needed */
+  font-size: 14px;
 }
 
 .pagination__link:hover, .pagination__link:focus {

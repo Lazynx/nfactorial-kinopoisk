@@ -1,21 +1,3 @@
-:root {
-  --black-color: #000000;
-  --transperent-color: rgba(0, 0, 0, 0.5);
-  --white-color: #ffffff;
-  --btn-color: #ececec;
-  --dark-white-color: #cacaca;
-  --light-black-color: #333333;
-  --gray-color: #666666;
-  --light-gray-color: #999999;
-  --light-magenta-color: #D1A9F0;
-  --magenta-color: #C283F3;
-  --light-purple-color: #9D5CD0;
-  --purple-color: #7943A4;
-  --green-color: #30BF39;
-  --blue-color: #26A5E4;
-  --red-color: #D11616;
-}
-
 body {
   font-family: "Graphik Kinopoisk LC Web SB Regular", "Tahoma", "Arial", "Verdana", "sans-serif";
 }
@@ -55,12 +37,11 @@ a {
 }
 
 .site-header {
-  background-color: #141414; /* Черный фон */
-  color: #fff; /* Белый текст */
+  background-color: #141414;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 15px 20px; */
   height: 72px;
   box-sizing: border-box;
   position: fixed;
@@ -324,7 +305,6 @@ a {
 .content-container {
   width: 100%;
   max-width: 1280px;
-  /* min-width: 1030px; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -398,7 +378,6 @@ a {
 .content {
   margin-left: 250px;
   padding-top: 72px;
-  /* margin-bottom: 30px; */
   min-height: 91.5vh;
 }
 
@@ -588,7 +567,6 @@ a {
   font-weight: 600;
   line-height: 28px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -706,7 +684,6 @@ a {
 .footer {
   width: 100%;
   max-width: 1280px;
-  /* min-width: 1030px; */
   margin: 0 auto;
   background-color: #000;
   color: #fff;

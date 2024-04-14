@@ -102,10 +102,9 @@
   .content-container,
   .header-container,
   .footer {
-    max-width: 768px; /* Smaller max-width to better fit smaller devices */
-    /* min-width: 768px; */
-    width: 100%; /* Full width for better responsiveness */
-    margin: 0 auto; /* Center aligning the containers */
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .focus__swiper,
@@ -225,7 +224,4 @@
     flex-direction: column;
   }
 
-  .movie-detail__block-info {
-    max-width: 320px;
-  }
 }
