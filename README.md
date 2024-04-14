@@ -90,7 +90,7 @@ php artisan serve
 - PHP >= 8.3
 - Laravel >= 11.0
 - MariaDB >= 11.0
-- Composer
+- Composer >= 2.5
 - Kinopoisk API Unofficial
 
 ## Конфигурация
