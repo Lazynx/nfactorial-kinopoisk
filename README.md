@@ -26,25 +26,37 @@
 
 1. Клонировать репозиторий:
 
-`git clone https://github.com/Lazynx/nfactorial-kinopoisk.git`
+```sh
+git clone https://github.com/Lazynx/nfactorial-kinopoisk.git
+```
 
 2. Установить зависимости Composer:
 
-`composer install`
+```sh
+composer install
+```
 
 3. Настроить файл окружения `.env` для подключения к базе данных MariaDB и других сервисов. Зарегистрироваться на сайте: https://kinopoiskapiunofficial.tech/ для получения ключа API и указать его в `.env` файле.
 
-`cp .env.example .env`
+```sh
+cp .env.example .env
+```
 
-`php artisan key:generate`
+```sh
+php artisan key:generate
+```
 
 4. Запустить миграции для создания структуры базы данных:
 
-`php artisan migrate`
+```sh
+php artisan migrate
+```
 
 5. Запустить сервер разработки:
 
-`php artisan serve`
+```sh
+php artisan serve
+```
 
 ## Использование
 
