@@ -1,4 +1,4 @@
-# Nfactorial Incubator task
+# Kinopoisk - nfactorial incubator task
 
 ## Оглавление
 
